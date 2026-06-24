@@ -44,9 +44,14 @@ Types: `feat`, `fix`, `refactor`, `docs`, `test`, `chore`, `perf`, `ci`
 
 ## Reporting Bugs
 
-Use the [Bug Report](.github/ISSUE_TEMPLATE/bug_report.md) issue template.
+Open a new issue and select the **Bug Report** template from the issue tracker of the relevant repository:
+
+- [osmos-core](https://github.com/Osmos-App/osmos-core/issues/new/choose)
+- [osmos-macos](https://github.com/Osmos-App/osmos-macos/issues/new/choose)
+- [osmos-android](https://github.com/Osmos-App/osmos-android/issues/new/choose)
+- [osmos-website](https://github.com/Osmos-App/osmos-website/issues/new/choose)
 
 ## Security Issues
 
 Do **not** open a public issue for security vulnerabilities.
-See [SECURITY.md](SECURITY.md) for responsible disclosure.
+See [SECURITY.md](https://github.com/Osmos-App/.github/blob/main/SECURITY.md) for responsible disclosure.
