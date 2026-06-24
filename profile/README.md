@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Osmos-App/.github/main/profile/logo.png" alt="Osmos" width="80" />
-
 # Osmos
 
 **Local-first version control for designers, writers, and teams.**  
@@ -52,7 +50,7 @@ Unlike Git, Osmos requires no CLI knowledge. Unlike cloud storage, it requires n
 We welcome contributions of all kinds — bug reports, feature ideas, documentation, and code.
 
 1. Read [CONTRIBUTING.md](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
-2. Check open issues labeled [`good first issue`](https://github.com/search?q=org%3AOsmos-App+label%3A%22good+first+issue%22&type=issues)
+2. Pick a repo and open an issue via **New Issue → Bug Report or Feature Request**
 3. Fork → branch → PR
 
 All contributors are expected to follow our [Code of Conduct](https://github.com/Osmos-App/.github/blob/main/CODE_OF_CONDUCT.md).
