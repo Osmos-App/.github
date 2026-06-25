@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="https://firebasestorage.googleapis.com/v0/b/osmos-app.firebasestorage.app/o/logo.png?alt=media&token=158fc5b0-7288-4afd-a3be-d77675f74944" width="160" alt="Osmos Logo" />
+
 # Osmos
 
 **Local-first version control for designers, writers, and teams.**  
