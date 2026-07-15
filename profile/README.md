@@ -14,6 +14,8 @@ Just create.**
 [![Core](https://img.shields.io/badge/core-Rust-orange)](https://github.com/Osmos-App/osmos-core)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
 
+[🇹🇷 Türkçe](README.tr.md)
+
 </div>
 
 ---
