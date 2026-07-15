@@ -4,8 +4,10 @@
 
 # Osmos
 
-**Local-first version control for designers, writers, and teams.**  
-No cloud. No complexity. Just your files — versioned, encrypted, and synced privately.
+### Version control for the way you actually work.
+
+**Stop thinking about saving, backups, and file versions.  
+Just create.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/Osmos-App)
@@ -18,56 +20,81 @@ No cloud. No complexity. Just your files — versioned, encrypted, and synced pr
 
 ## What is Osmos?
 
-Osmos is a **local-first, end-to-end encrypted version control system** built for people who work with files — designers, writers, researchers, and developers who don't want their work on someone else's server.
+Osmos is a **local-first version control system** built for people who create with files.
 
-Unlike Git, Osmos requires no CLI knowledge. Unlike cloud storage, it requires no subscription or internet connection. Your files stay on your devices and sync over your local network via P2P.
+Whether you're designing, writing, editing, or coding, Osmos automatically keeps track of your work so you never have to think about saving versions, making backups, or naming files `Final_v27`.
+
+Your files stay on your devices. Your history is always available. Your data is encrypted and never uploaded to someone else's cloud.
 
 ---
 
-## ✨ Features
+## Why Osmos?
+
+Most people don't need Git.
+
+They need a safer way to work.
+
+Osmos helps you stop worrying about:
+
+- 💾 Constantly pressing **Ctrl/Cmd + S**
+- 📄 Creating files like `Final_Final_v12.psd`
+- 💽 Making manual backups
+- ☁️ Trusting third-party cloud storage with your work
+
+Instead, Osmos automatically creates a complete history of your files while you focus on creating.
+
+---
+
+## Features
 
 | | |
 |---|---|
-| 🗂 **Snapshot versioning** | Full file snapshots — not diffs. Revert any file to any point instantly. |
-| 📡 **Local-first sync** | Devices discover each other via mDNS. No internet, no servers. |
-| 🔐 **End-to-end encrypted** | AES-GCM encryption with PBKDF2-derived keys. Noise Protocol for transport. |
-| 🖥 **Cross-platform desktop** | Tauri, React, and TypeScript across Windows, macOS, and Linux. |
-| ⚡ **Rust core** | High-performance engine shared across all platforms. |
+| 📸 **Automatic snapshots** | Your work is versioned automatically while you create. |
+| ⏪ **Time travel** | Restore any file to any previous point in seconds. |
+| 🔐 **End-to-end encryption** | Your data stays private on your devices. |
+| 📡 **Local-first sync** | Sync directly between your own devices without relying on a central server. |
+| ⚡ **Rust core** | Fast, reliable, and built for large projects. |
+| 🖥 **Cross-platform** | Windows, macOS, Linux, with mobile support in progress. |
 
 ---
 
-## 📦 Repositories
+## Repositories
 
-| Repo | Description | Language |
-|------|-------------|----------|
-| [**osmos-core**](https://github.com/Osmos-App/osmos-core) | Core engine — versioning, P2P sync, E2E encryption | ![Rust](https://img.shields.io/badge/-Rust-orange?logo=rust&logoColor=white) |
-| [**osmos-ts**](https://github.com/Osmos-App/osmos-ts) | Cross-platform desktop client | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white) |
-| [**osmos-android**](https://github.com/Osmos-App/osmos-android) | Android client | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?logo=kotlin&logoColor=white) |
-| [**osmos-website**](https://github.com/Osmos-App/osmos-website) | Landing page & web dashboard | ![Vite](https://img.shields.io/badge/-Vite-646CFF?logo=vite&logoColor=white) |
-
----
-
-## 🤝 Contributing
-
-We welcome contributions of all kinds — bug reports, feature ideas, documentation, and code.
-
-1. Read [CONTRIBUTING.md](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
-2. Pick a repo and open an issue via **New Issue → Bug Report or Feature Request**
-3. Fork → branch → PR
-
-All contributors are expected to follow our [Code of Conduct](https://github.com/Osmos-App/.github/blob/main/CODE_OF_CONDUCT.md).
+| Repository | Description |
+|------------|-------------|
+| **osmos-core** | Versioning engine, storage, encryption, and synchronization. |
+| **osmos-ts** | Cross-platform desktop application built with Tauri. |
+| **osmos-website** | Marketing website. |
 
 ---
 
-## 🔒 Security
+## Contributing
 
-Found a vulnerability? Please do **not** open a public issue.  
-Report it privately via [SECURITY.md](https://github.com/Osmos-App/.github/blob/main/SECURITY.md).
+Contributions of every size are welcome.
+
+Whether it's reporting bugs, improving documentation, fixing issues, or proposing new ideas, we'd love your help.
+
+Before contributing, please read:
+
+- [CONTRIBUTING.md](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
+- [CODE_OF_CONDUCT.md](https://github.com/Osmos-App/.github/blob/main/CODE_OF_CONDUCT.md)
+
+---
+
+## Security
+
+If you've found a security vulnerability, please **do not** open a public issue.
+
+Instead, report it privately through our security policy:
+
+[SECURITY.md](https://github.com/Osmos-App/.github/blob/main/SECURITY.md)
 
 ---
 
 <div align="center">
 
-MIT License · Built with ❤️ by [Osmos App](https://github.com/Osmos-App)
+**Stop managing versions. Start creating.**
+
+Built with ❤️ by the Osmos community.
 
 </div>
