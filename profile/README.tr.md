@@ -4,7 +4,7 @@
 
 # Osmos
 
-### Çalışma tarzınıza uygun versiyon kontrolü.
+### Gerçek çalışma şeklinize uygun versiyon kontrolü.
 
 **Kaydetmeyi, yedeklemeyi ve dosya versiyonlarını düşünmeyi bırakın.  
 Sadece üretin.**
@@ -22,11 +22,11 @@ Sadece üretin.**
 
 ## Osmos Nedir?
 
-Osmos, dosyalarla üretim yapan kişiler için tasarlanmış **önce yerel (local-first) bir versiyon kontrol sistemidir**.
+Osmos, dosyalarla üretim yapan kişiler için geliştirilmiş **local-first** bir versiyon kontrol sistemidir.
 
-İster tasarım yapıyor, ister yazıyor, düzenliyor veya kodluyor olun, Osmos çalışmalarınızı otomatik olarak takip eder. Böylece versiyon kaydetmek, yedek almak veya dosyalara `Final_v27` gibi isimler vermek zorunda kalmazsınız.
+İster tasarım yapıyor, ister yazıyor, düzenliyor veya kodluyor olun, Osmos çalışmalarınızı otomatik olarak sürümlendirir. Böylece versiyon kaydetmek, yedek almak veya dosyalara `Final_v27` gibi isimler vermek zorunda kalmazsınız.
 
-Dosyalarınız kendi cihazlarınızda kalır. Geçmişinize her zaman erişilebilir. Verileriniz şifrelenir ve hiçbir zaman başkasının bulutuna yüklenmez.
+Dosyalarınız kendi cihazlarınızda kalır. Geçmişinize her zaman erişilebilir. Verileriniz şifrelenir ve size ait olmayan hiçbir sunucuya yüklenmez.
 
 ---
 
@@ -34,9 +34,9 @@ Dosyalarınız kendi cihazlarınızda kalır. Geçmişinize her zaman erişilebi
 
 Çoğu insanın Git'e ihtiyacı yoktur.
 
-Çalışmak için daha güvenli bir yola ihtiyaçları vardır.
+Güvenle çalışabilecekleri bir sisteme ihtiyaçları vardır.
 
-Osmos, şunları dert etmeyi bırakmanızı sağlar:
+Osmos sayesinde artık şunları düşünmek zorunda kalmazsınız:
 
 - 💾 Sürekli **Ctrl/Cmd + S** tuşlarına basmak
 - 📄 `Final_Final_v12.psd` gibi dosyalar oluşturmak
@@ -51,12 +51,12 @@ Bunun yerine, siz üretmeye odaklanırken Osmos dosyalarınızın eksiksiz bir g
 
 | | |
 |---|---|
-| 📸 **Otomatik anlık görüntüler** | Siz çalışırken işiniz otomatik olarak versiyonlanır. |
-| ⏪ **Zaman yolculuğu** | Herhangi bir dosyayı saniyeler içinde önceki bir noktaya geri yükleyin. |
+| 📸 **Otomatik Snapshot'lar** | Siz çalışırken işiniz otomatik olarak versiyonlanır. |
+| ⏪ **Zaman yolculuğu** | Dosyalarınızın geçmişindeki herhangi bir ana saniyeler içinde geri dönebilirsiniz. |
 | 🔐 **Uçtan uca şifreleme** | Verileriniz cihazlarınızda gizli kalır. |
 | 📡 **Önce yerel senkronizasyon** | Merkezi bir sunucuya ihtiyaç duymadan cihazlarınız arasında doğrudan senkronizasyon yapın. |
-| ⚡ **Rust çekirdeği** | Hızlı, güvenilir ve büyük projeler için tasarlandı. |
-| 🖥 **Çapraz platform** | Windows, macOS, Linux, mobil desteği geliştirme aşamasında. |
+| ⚡ **Rust tabanlı çekirdek** | Hızlı, güvenilir ve büyük projeler için tasarlandı. |
+| 🖥 **Çapraz platform** | Windows, macOS ve Linux desteği hazırdır. Mobil istemciler geliştirilmektedir. |
 
 ---
 
@@ -95,7 +95,7 @@ Bunun yerine, güvenlik politikamız aracılığıyla bize gizlice bildirin:
 
 <div align="center">
 
-**Versiyonları yönetmeyi bırakın. Üretmeye başlayın.**
+**Versiyonları düşünmeyin. Üretmeye odaklanın.**
 
 Osmos topluluğu tarafından ❤️ ile geliştirildi.
 
