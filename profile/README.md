@@ -93,6 +93,22 @@ Instead, report it privately through our security policy:
 
 ---
 
+## Contact
+
+| For | Contact |
+|---|---|
+| General questions and research | **hello@useosmos.com** |
+| User support | **support@useosmos.com** |
+| Security vulnerability reports | **security@useosmos.com** |
+| Media inquiries | **press@useosmos.com** |
+| Community and social collaborations | **social@useosmos.com** |
+| Legal and trademark inquiries | **legal@useosmos.com** |
+| Careers | **jobs@useosmos.com** |
+
+**noreply@useosmos.com** is for automated notifications only.
+
+---
+
 <div align="center">
 
 **Stop managing versions. Start creating.**

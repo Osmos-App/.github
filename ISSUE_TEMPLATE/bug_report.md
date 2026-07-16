@@ -6,6 +6,8 @@ labels: bug
 assignees: ''
 ---
 
+> Do not use this template for security vulnerabilities. Report them privately to **security@useosmos.com**.
+
 ## Describe the Bug
 <!-- A clear description of what the bug is -->
 

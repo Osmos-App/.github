@@ -19,6 +19,6 @@ Examples of unacceptable behavior:
 
 ## Enforcement
 
-Instances of abusive or unacceptable behavior may be reported by contacting the project team. All complaints will be reviewed and investigated.
+Instances of abusive or unacceptable behavior may be reported to **support@useosmos.com**. All complaints will be reviewed and investigated.
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.

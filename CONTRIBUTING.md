@@ -55,3 +55,10 @@ Open a new issue and select the **Bug Report** template from the issue tracker o
 
 Do **not** open a public issue for security vulnerabilities.
 See [SECURITY.md](https://github.com/Osmos-App/.github/blob/main/SECURITY.md) for responsible disclosure.
+
+## Contact
+
+- General contributor questions and research inquiries: **hello@useosmos.com**
+- Community and collaboration inquiries: **social@useosmos.com**
+- User support: **support@useosmos.com**
+- Security vulnerabilities: **security@useosmos.com**

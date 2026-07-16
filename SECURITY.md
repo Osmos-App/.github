@@ -4,7 +4,7 @@
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-Please report security issues by emailing: **support@useosmos.com**
+Please report security issues by emailing: **security@useosmos.com**
 
 Include:
 - Type of vulnerability

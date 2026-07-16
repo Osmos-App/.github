@@ -93,6 +93,22 @@ Bunun yerine, güvenlik politikamız aracılığıyla bize gizlice bildirin:
 
 ---
 
+## İletişim
+
+| Konu | İletişim |
+|---|---|
+| Genel sorular ve araştırma | **hello@useosmos.com** |
+| Kullanıcı desteği | **support@useosmos.com** |
+| Güvenlik açığı bildirimleri | **security@useosmos.com** |
+| Medya talepleri | **press@useosmos.com** |
+| Topluluk ve sosyal iş birlikleri | **social@useosmos.com** |
+| Hukuki ve marka talepleri | **legal@useosmos.com** |
+| Kariyer | **jobs@useosmos.com** |
+
+**noreply@useosmos.com** yalnızca otomatik bildirimler içindir.
+
+---
+
 <div align="center">
 
 **Versiyonları düşünmeyin. Üretmeye odaklanın.**
