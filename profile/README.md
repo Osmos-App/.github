@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://firebasestorage.googleapis.com/v0/b/osmos-app.firebasestorage.app/o/logo.png?alt=media&token=158fc5b0-7288-4afd-a3be-d77675f74944" width="160" alt="Osmos Logo" />
+<img src="https://firebasestorage.googleapis.com/v0/b/osmos-app.firebasestorage.app/o/file_00000000aac471f4bd5971e309f89e79.png?alt=media&token=6aa5eb46-8107-4730-84c9-f6e2cc643509" width="160" alt="Osmos Logo" />
 
 # Osmos
 
