@@ -1,118 +1,48 @@
-<div align="center">
-
-<img src="https://firebasestorage.googleapis.com/v0/b/osmos-app.firebasestorage.app/o/logo.png?alt=media&token=158fc5b0-7288-4afd-a3be-d77675f74944" width="160" alt="Osmos Logo" />
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Osmos: oluşturduğunuz dosyaların geçmişini yerelde tutan versiyon kontrolü">
+</p>
 
 # Osmos
 
-### Gerçek çalışma şeklinize uygun versiyon kontrolü.
+Osmos; tasarımcılar, yazarlar, editörler ve geliştiriciler gibi dosyalarla üreten kişiler için yerel-öncelikli bir versiyon kontrol projesidir. Sürüm adı karmaşasını, geri dönmesi kolay ve özel bir yerel geçmişle değiştirmek için geliştiriliyor.
 
-**Kaydetmeyi, yedeklemeyi ve dosya versiyonlarını düşünmeyi bırakın.  
-Sadece üretin.**
+> **Proje durumu:** Rust çekirdeği yerel versiyonlama, içerik-adresli blob depolama, SQLite metaverisi ve yerel daemon API’si sağlıyor. Masaüstü deneyimi ile cihazlar arası taşıma katmanı hâlâ geliştirme aşamasında.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/Osmos-App)
-[![Core](https://img.shields.io/badge/core-Rust-orange)](https://github.com/Osmos-App/osmos-core)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
+## Fikir
 
-[🇬🇧 English](README.md)
+Çoğu yaratıcı çalışma bir Git deposuyla değil, bir klasörle başlar. Osmos bu gerçeğe göre tasarlanır:
 
-</div>
+```text
+çalışma klasörü → yerel geçmiş → gerektiğinde önceki bir sürümü seç
+```
 
----
+Amaç basit: geçmişi işinizin yanında tutmak; böylece üretmeye odaklanabilmek.
 
-## Osmos Nedir?
+## Bugün neler var?
 
-Osmos, dosyalarla üretim yapan kişiler için geliştirilmiş **local-first** bir versiyon kontrol sistemidir.
+| Alan | Mevcut durum |
+| --- | --- |
+| [Osmos Core](https://github.com/Osmos-App/osmos-core) | Dizin takibi, BLAKE3-adresli bloblar, SQLite metaverisi, commit ve branch işlemleri ile Unix socket daemon içeren Rust çalışma alanı. |
+| [Osmos Desktop](https://github.com/Osmos-App/osmos-ts) | Tauri + React + TypeScript istemci temeli; ürün ekranları geliştiriliyor. |
+| [Osmos Website](https://github.com/Osmos-App/osmos-website) | Vite, özel CSS token’ları ve Firebase ile hazırlanmış ürün sitesi ve bekleme listesi. |
 
-İster tasarım yapıyor, ister yazıyor, düzenliyor veya kodluyor olun, Osmos çalışmalarınızı otomatik olarak sürümlendirir. Böylece versiyon kaydetmek, yedek almak veya dosyalara `Final_v27` gibi isimler vermek zorunda kalmazsınız.
+## Nereye gidiyor?
 
-Dosyalarınız kendi cihazlarınızda kalır. Geçmişinize her zaman erişilebilir. Verileriniz şifrelenir ve size ait olmayan hiçbir sunucuya yüklenmez.
+- Değişiklikleri incelemek, snapshot oluşturmak ve branch’ler arasında gezinmek için sakin bir masaüstü arayüzü.
+- Çekirdek çalışma alanında planlanan cihaz keşfi ve eşler arası taşıma.
+- Git terminolojisi gerektirmeden yerel geçmişi anlaşılır tutan bir çalışma biçimi.
 
----
+## Katılın
 
-## Neden Osmos?
+İlginize en yakın depodan başlayabilirsiniz:
 
-Çoğu insanın Git'e ihtiyacı yoktur.
+- [Çekirdek motoru inceleyin](https://github.com/Osmos-App/osmos-core)
+- [Masaüstü istemci temelini görün](https://github.com/Osmos-App/osmos-ts)
+- [Ürün sitesine göz atın](https://github.com/Osmos-App/osmos-website)
+- [Katkı rehberini okuyun](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
 
-Güvenle çalışabilecekleri bir sisteme ihtiyaçları vardır.
+## Güvenlik ve iletişim
 
-Osmos sayesinde artık şunları düşünmek zorunda kalmazsınız:
+Güvenlik açıklarını lütfen herkese açık bir issue açmadan **security@useosmos.com** adresine bildirin. Ayrıntılar için [güvenlik politikasına](https://github.com/Osmos-App/.github/blob/main/SECURITY.md) bakın.
 
-- 💾 Sürekli **Ctrl/Cmd + S** tuşlarına basmak
-- 📄 `Final_Final_v12.psd` gibi dosyalar oluşturmak
-- 💽 Manuel yedeklemeler yapmak
-- ☁️ Çalışmalarınızı üçüncü taraf bulut depolama hizmetlerine emanet etmek
-
-Bunun yerine, siz üretmeye odaklanırken Osmos dosyalarınızın eksiksiz bir geçmişini otomatik olarak oluşturur.
-
----
-
-## Özellikler
-
-| | |
-|---|---|
-| 📸 **Otomatik Snapshot'lar** | Siz çalışırken işiniz otomatik olarak versiyonlanır. |
-| ⏪ **Zaman yolculuğu** | Dosyalarınızın geçmişindeki herhangi bir ana saniyeler içinde geri dönebilirsiniz. |
-| 🔐 **Uçtan uca şifreleme** | Verileriniz cihazlarınızda gizli kalır. |
-| 📡 **Önce yerel senkronizasyon** | Merkezi bir sunucuya ihtiyaç duymadan cihazlarınız arasında doğrudan senkronizasyon yapın. |
-| ⚡ **Rust tabanlı çekirdek** | Hızlı, güvenilir ve büyük projeler için tasarlandı. |
-| 🖥 **Çapraz platform** | Windows, macOS ve Linux desteği hazırdır. Mobil istemciler geliştirilmektedir. |
-
----
-
-## Depolar
-
-| Depo | Açıklama |
-|------------|-------------|
-| **osmos-core** | Versiyonlama motoru, depolama, şifreleme ve senkronizasyon. |
-| **osmos-ts** | Tauri ile geliştirilmiş çapraz platform masaüstü uygulaması. |
-| **osmos-website** | Pazarlama web sitesi. |
-
----
-
-## Katkıda Bulunma
-
-Her ölçekten katkıya açığız.
-
-Hata bildirmek, dokümantasyonu iyileştirmek, sorunları çözmek veya yeni fikirler önermek olsun, yardımınızı görmekten mutluluk duyarız.
-
-Katkıda bulunmadan önce lütfen şunları okuyun:
-
-- [CONTRIBUTING.md](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](https://github.com/Osmos-App/.github/blob/main/CODE_OF_CONDUCT.md)
-
----
-
-## Güvenlik
-
-Eğer bir güvenlik açığı bulduysanız, lütfen herkese açık bir issue **açmayın**.
-
-Bunun yerine, güvenlik politikamız aracılığıyla bize gizlice bildirin:
-
-[SECURITY.md](https://github.com/Osmos-App/.github/blob/main/SECURITY.md)
-
----
-
-## İletişim
-
-| Konu | İletişim |
-|---|---|
-| Genel sorular ve araştırma | **hello@useosmos.com** |
-| Kullanıcı desteği | **support@useosmos.com** |
-| Güvenlik açığı bildirimleri | **security@useosmos.com** |
-| Medya talepleri | **press@useosmos.com** |
-| Topluluk ve sosyal iş birlikleri | **social@useosmos.com** |
-| Hukuki ve marka talepleri | **legal@useosmos.com** |
-| Kariyer | **jobs@useosmos.com** |
-
-**noreply@useosmos.com** yalnızca otomatik bildirimler içindir.
-
----
-
-<div align="center">
-
-**Versiyonları düşünmeyin. Üretmeye odaklanın.**
-
-Osmos topluluğu tarafından ❤️ ile geliştirildi.
-
-</div>
+Genel sorular için: **hello@useosmos.com**.
