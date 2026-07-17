@@ -1,118 +1,48 @@
-<div align="center">
-
-<img src="https://firebasestorage.googleapis.com/v0/b/osmos-app.firebasestorage.app/o/logo.png?alt=media&token=158fc5b0-7288-4afd-a3be-d77675f74944" width="160" alt="Osmos Logo" />
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Osmos: local-first version control that keeps history close to the files you create">
+</p>
 
 # Osmos
 
-### Version control for the way you actually work.
+Osmos is a local-first version-control project for people who create with files: designers, writers, editors, and developers. It is being built to replace version-name chaos with a private, local history that is easy to return to.
 
-**Stop thinking about saving, backups, and file versions.  
-Just create.**
+> **Project status:** the Rust core provides local versioning, content-addressable blob storage, SQLite metadata, and a local daemon API. The desktop experience and device-to-device transport are still in development.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)](https://github.com/Osmos-App)
-[![Core](https://img.shields.io/badge/core-Rust-orange)](https://github.com/Osmos-App/osmos-core)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
+## The idea
 
-[🇹🇷 Türkçe](README.tr.md)
+Most creative work starts as a folder, not a Git repository. Osmos is designed around that reality:
 
-</div>
+```text
+working folder → local history → choose an earlier version when you need it
+```
 
----
+The goal is simple: keep the history beside the work, so you can focus on making it.
 
-## What is Osmos?
+## What exists today
 
-Osmos is a **local-first version control system** built for people who create with files.
+| Area | Current state |
+| --- | --- |
+| [Osmos Core](https://github.com/Osmos-App/osmos-core) | Rust workspace with directory tracking, BLAKE3-addressed blobs, SQLite metadata, commits and branches, plus a Unix socket daemon. |
+| [Osmos Desktop](https://github.com/Osmos-App/osmos-ts) | Tauri + React + TypeScript client foundation; product screens are in progress. |
+| [Osmos Website](https://github.com/Osmos-App/osmos-website) | Product site and waitlist, built with Vite, custom CSS tokens, and Firebase. |
 
-Whether you're designing, writing, editing, or coding, Osmos automatically keeps track of your work so you never have to think about saving versions, making backups, or naming files `Final_v27`.
+## Where it is going
 
-Your files stay on your devices. Your history is always available. Your data is encrypted and never uploaded to someone else's cloud.
+- A calm desktop interface for reviewing changes, creating snapshots, and moving between branches.
+- Device discovery and peer-to-peer transport, planned in the core workspace.
+- A workflow that keeps local history understandable without requiring Git vocabulary.
 
----
+## Get involved
 
-## Why Osmos?
+The best place to start is the repository closest to your interest:
 
-Most people don't need Git.
+- [Explore the core engine](https://github.com/Osmos-App/osmos-core)
+- [See the desktop client foundation](https://github.com/Osmos-App/osmos-ts)
+- [Browse the product site](https://github.com/Osmos-App/osmos-website)
+- [Read the contribution guide](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
 
-They need a safer way to work.
+## Security and contact
 
-Osmos helps you stop worrying about:
+Please report vulnerabilities privately at **security@useosmos.com**; do not open a public issue. See the [security policy](https://github.com/Osmos-App/.github/blob/main/SECURITY.md) for details.
 
-- 💾 Constantly pressing **Ctrl/Cmd + S**
-- 📄 Creating files like `Final_Final_v12.psd`
-- 💽 Making manual backups
-- ☁️ Trusting third-party cloud storage with your work
-
-Instead, Osmos automatically creates a complete history of your files while you focus on creating.
-
----
-
-## Features
-
-| | |
-|---|---|
-| 📸 **Automatic snapshots** | Your work is versioned automatically while you create. |
-| ⏪ **Time travel** | Restore any file to any previous point in seconds. |
-| 🔐 **End-to-end encryption** | Your data stays private on your devices. |
-| 📡 **Local-first sync** | Sync directly between your own devices without relying on a central server. |
-| ⚡ **Rust core** | Fast, reliable, and built for large projects. |
-| 🖥 **Cross-platform** | Windows, macOS, Linux, with mobile support in progress. |
-
----
-
-## Repositories
-
-| Repository | Description |
-|------------|-------------|
-| **osmos-core** | Versioning engine, storage, encryption, and synchronization. |
-| **osmos-ts** | Cross-platform desktop application built with Tauri. |
-| **osmos-website** | Marketing website. |
-
----
-
-## Contributing
-
-Contributions of every size are welcome.
-
-Whether it's reporting bugs, improving documentation, fixing issues, or proposing new ideas, we'd love your help.
-
-Before contributing, please read:
-
-- [CONTRIBUTING.md](https://github.com/Osmos-App/.github/blob/main/CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](https://github.com/Osmos-App/.github/blob/main/CODE_OF_CONDUCT.md)
-
----
-
-## Security
-
-If you've found a security vulnerability, please **do not** open a public issue.
-
-Instead, report it privately through our security policy:
-
-[SECURITY.md](https://github.com/Osmos-App/.github/blob/main/SECURITY.md)
-
----
-
-## Contact
-
-| For | Contact |
-|---|---|
-| General questions and research | **hello@useosmos.com** |
-| User support | **support@useosmos.com** |
-| Security vulnerability reports | **security@useosmos.com** |
-| Media inquiries | **press@useosmos.com** |
-| Community and social collaborations | **social@useosmos.com** |
-| Legal and trademark inquiries | **legal@useosmos.com** |
-| Careers | **jobs@useosmos.com** |
-
-**noreply@useosmos.com** is for automated notifications only.
-
----
-
-<div align="center">
-
-**Stop managing versions. Start creating.**
-
-Built with ❤️ by the Osmos community.
-
-</div>
+For general questions, reach us at **hello@useosmos.com**.
