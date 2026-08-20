@@ -4,6 +4,8 @@
 
 # Osmos
 
+[🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
+
 Osmos is a local-first version-control project for people who create with files: designers, writers, editors, and developers. It is being built to replace version-name chaos with a private, local history that is easy to return to.
 
 > **Project status:** the Rust core provides local versioning, content-addressable blob storage, SQLite metadata, and a local daemon API. The desktop experience and device-to-device transport are still in development.
