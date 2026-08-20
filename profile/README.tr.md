@@ -4,6 +4,8 @@
 
 # Osmos
 
+[🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
+
 Osmos; tasarımcılar, yazarlar, editörler ve geliştiriciler gibi dosyalarla üreten kişiler için yerel-öncelikli bir versiyon kontrol projesidir. Sürüm adı karmaşasını, geri dönmesi kolay ve özel bir yerel geçmişle değiştirmek için geliştiriliyor.
 
 > **Proje durumu:** Rust çekirdeği yerel versiyonlama, içerik-adresli blob depolama, SQLite metaverisi ve yerel daemon API’si sağlıyor. Masaüstü deneyimi ile cihazlar arası taşıma katmanı hâlâ geliştirme aşamasında.

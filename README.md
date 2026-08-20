@@ -1,5 +1,7 @@
 # .github
 
+[🇬🇧 English](README.md) · [🇹🇷 Türkçe](README.tr.md)
+
 Organization-wide community health files for [Osmos App](https://github.com/Osmos-App).
 
 These files apply to all repositories in the organization unless overridden locally.
